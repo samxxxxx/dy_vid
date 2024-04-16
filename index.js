@@ -22,4 +22,4 @@ http.createServer(function(request, response) {
 
     // 下句是发送响应数据
     response.end(JSON.stringify(data));
-}).listen(8848,"localhost");
+}).listen(8848,"0.0.0.0");
